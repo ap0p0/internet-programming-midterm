@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel= "stylesheet" href="style.css">
+    <script src="quiz.js"></script>
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    
+    <title>Quiz</title>
+</head>
+
+  <body>
+ <div class="header navbar" style="background-color: beige;">
+  <a href=""onclick="alert('You are already here!')">Quiz</a>
+</div>
+<div class="sidebar">
+  <a href="home.html">Home</a>
+  <a href="contact.html">Contact</a>
+</div>
+<div class="main text-center">
+          
+                <div  >
+                    <p class="question">Your Name and ID</p>
+                    <ul>
+                     
+                            <input type="edit"  class="form-control mb-2" name="12" value="Name">
+                            <input type="number" class="form-control mb-2"  name="12" value="ID">
+                            <input type="checkbox" name="a" id="check" value="" size="10" required> Please click the box
+
+                    </ul>
+      
+                </div>
+            
+                <div>
+                    <p class="question">Q2: Inside which HTML element do we put the JavaScript (choose one)</p>
+      
+                  <ul>
+                  <input class="answer custom-radio" type="radio" name="q2" value="0">
+                  <label>scripting</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="1">
+                  <label id="correctString2">script</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>javascript</label>
+                  <br>
+                  <input class="answer" type="radio" name="q2" value="0">
+                  <label>js</label>
+                  </ul>
+                </div>
+        
+                <div>
+                    <p class="question">The external JavaScript file must contain the script tag (check all that apply)</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>true</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="1">
+                  <label id="correctString3">false</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>none</label>
+                  <br>
+                  <input class="answer" type="radio" name="q3" value="0">
+                  <label>both</label>
+                  </ul>
+              </div>
+            
+                <div>
+                    <p class="question">How do you write "Hello World" in an alert box? (select option)</p>
+      
+                  <ul>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>AlertBox(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="1">
+                  <label id="correctString4">Alert(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>Msg(“Hello World”);</label>
+                  <br>
+                  <input class="answer" type="radio" name="q4" value="0">
+                  <label>msgBoxl(“Hello World”);</label>
+                  </ul>
+                </div>
+            
+          
+      <br/>
+        <div class="submitter">
+                <input class="quizSubmit" id="submitButton" onclick="submitQuiz()" type="submit" value="Submit" />
+          </div>
+          <div class="quizAnswers" id="correctAnswer1"></div>
+              <div class="quizAnswers" id="correctAnswer2"></div>
+          <div class="quizAnswers" id="correctAnswer3"></div>
+          <div class="quizAnswers" id="correctAnswer4"></div>
+
+          <div>
+              <h2 class="quizScore" id="userScore"></h2>
+          </div>
+</div>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+  
+</html>

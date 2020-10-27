@@ -1,0 +1,28 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 40px;
+}
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 0;
+  width: 178px;
+  background-color: whitesmoke;
+}
+.main {
+  position: absolute;
+  left: 178px;
+  top: 92px;
+  right: 0;
+  bottom: 0;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #black;
+  display: block;
+}

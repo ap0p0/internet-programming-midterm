@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel= "stylesheet" href="style.css">
         <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -13,16 +14,50 @@
     <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     
-    <title>Midterm - 4259</title>
+    <title>Contact</title>
 </head>
 
   <body>
-      <!-- content od tuka -->
-   
+ <div class="header navbar" style="background-color: beige;">
+  <a href=""onclick="alert('You are already here!')">Contact</a>
+</div>
+<div class="sidebar">
+  <a href="Home.html">Home</a>
+  <a href="quiz.html">Quiz</a>
+</div>
+<div class="main text-center">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-
-
-      <!-- content do tuka -->
+  <form name="jsonForm" id="jsonForm">
+    <div class="form-row align-items-center">
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInput">Name</label>
+        <input type="text" class="form-control mb-2" id="NameInput" placeholder="Name">
+      </div>
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInput">Surname</label>
+        <input type="text" class="form-control mb-2" id="SurnameInput" placeholder="Surname">
+      </div>
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInput">ID</label>
+        <input type="number" class="form-control mb-2" id="IDinput" placeholder="ID">
+      </div>
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInput">Email</label>
+        <input type="email" class="form-control mb-2" id="EmailInput" placeholder="Email">
+      </div>
+      <div>
+        <textarea name="comment" id="CommentInput" cols="50" rows="4">Enter your comment here</textarea>
+      </div>
+     
+      <div class="col-auto">
+        <button type="submit" onclick="reserve()"" class="btn btn-primary mb-2">Submit</button>
+      </div>
+    </div>
+  </form>
+  
+    
+</div>
   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -36,6 +71,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script type="text/javascript" src="contactInput.js"></script>
   </body>
   
 </html>
