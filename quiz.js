@@ -56,15 +56,4 @@ function submitQuiz() {
     document.getElementById('userScore').innerHTML = showScore;
 }
 
-function store(){
-    var input= document.getElementById("Surname");
-    localStorage.setItem("Surname", input.value);
-    var input= document.getElementById("Name");
-    localStorage.setItem("Name", input.value);
-    var input= document.getElementById("studentID");
-    localStorage.setItem("studentID", input.value);
-    var input= document.getElementById("Email").value;
-    localStorage.setItem("Email", input);
-
-   }
 
